@@ -1,0 +1,26 @@
+{
+  "LightGBM_Regressor": {
+    "R2_Score": 0.9832,
+    "MAPE_Percent": 2.74,
+    "RMSE_MW": 40.84,
+    "MAE_MW": 32.37
+  },
+  "XGBoost_Regressor": {
+    "R2_Score": 0.9833,
+    "MAPE_Percent": 2.74,
+    "RMSE_MW": 40.69,
+    "MAE_MW": 32.37
+  },
+  "Ridge_Baseline": {
+    "R2_Score": 0.96,
+    "MAPE_Percent": 4.11
+  },
+  "Dataset_Summary": {
+    "Total_Hours": 17376,
+    "Train_Hours": 13900,
+    "Test_Hours": 3476,
+    "Peak_Load_MW": 2114.31,
+    "Average_Load_MW": 1297.57,
+    "Renewable_Generation_Mean_MW": 127.24
+  }
+}
